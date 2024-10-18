@@ -82,9 +82,9 @@ public class Complex {
     @Override
     public String toString() {
         if(imaginable>=0){
-            return real +"+"+ imaginable +"i";
+            return real +"+"+ (imaginable +"i");
         }
-        return real + imaginable +"i";
+        return real + (imaginable +"i");
     }
 
     @Override
